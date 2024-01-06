@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cepbshnh5rxlg"]
+
+[ext_resource type="Script" path="res://addons/footprint-trail/scripts/footprint.gd" id="1_c4lu3"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_ujajd"]
+resource_local_to_scene = true
+orientation = 1
+
+[node name="Footprint" type="Node3D"]
+script = ExtResource("1_c4lu3")
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+mesh = SubResource("QuadMesh_ujajd")
