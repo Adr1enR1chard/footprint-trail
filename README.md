@@ -1,6 +1,8 @@
 # footprint-trail
 Godot plugin to add a footprint trail to a CharacterBody3D
 
+![Screenshot from an example]([https://github.com/Adr1enR1chard/footprint-trail/screenshot1.png](https://github.com/Adr1enR1chard/footprint-trail/blob/76db0b493bf5af2fdae8409c4d58f7b6d0d932df/screenshot1.png))
+
 ## How to use it ?
 Add the "footprint-tail" directory to your project in the "res://addons" directory.
 ### Add your trail
